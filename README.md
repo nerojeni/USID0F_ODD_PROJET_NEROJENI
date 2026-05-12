@@ -42,4 +42,4 @@ L'objectif final de ce projet est de construire un tableau de bord à l'aide de 
 
 ## Schéma - Tableau de bord
 
-![alt text](/USID0F_ODD_PROJET_NEROJENI/Schema/schema.png)
+![alt text](Schema/schema.png)
