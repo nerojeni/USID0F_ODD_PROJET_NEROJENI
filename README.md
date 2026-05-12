@@ -40,3 +40,6 @@ L'objectif final de ce projet est de construire un tableau de bord à l'aide de 
 * KPI 1 : niveau d'addiction moyen selon le sexe
  
 
+## Schéma - Tableau de bord
+
+![alt text](Schema\schema.png)
