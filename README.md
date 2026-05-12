@@ -6,7 +6,7 @@
 
 ***Author Name :*** Muhammad Shahzad (Owner of the dataset)
 
-***Volumétrie des données :*** 13col x ?lig
+***Volumétrie des données :*** 13col x 1200lig
 
 ***Description des données :***
 
