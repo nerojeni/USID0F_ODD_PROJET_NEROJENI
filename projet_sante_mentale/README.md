@@ -6,7 +6,7 @@
 ## Arborescence du projet
 
 ```
-projet_sante_mentale/
+src/projet_sante_mentale/
 │
 ├── main.py                    ← Point d'entrée unique
 │
@@ -43,7 +43,6 @@ projet_sante_mentale/
 |---------------|---------------------------------------------------|
 | `DATA`        | Données brutes (1 200 lignes)                     |
 | `CALC`        | Valeurs distinctes (UNIQUE ArrayFormula)           |
-| `Indicateurs` | 4 indicateurs simples (COUNTIFS / AVERAGEIF)       |
 | `Correlations`| Matrice de corrélation (pandas → Excel)            |
 | `TCD`         | Tableaux croisés + KPI + helpers pour TDB1        |
 | `TCD2`        | Tableaux croisés pour TDB2                        |
@@ -69,10 +68,6 @@ pip install openpyxl==3.1.3 pandas==3.0.2 s3fs==2026.3.0
 # Pipeline complet
 python main.py
 
-# Étapes séparées
-python main.py --step data      # Chargement + CALC + Indicateurs + Correlations
-python main.py --step sheets    # TDB1/2/3 + TCD/TCD2/TCD3
-python main.py --step charts    # Tous les graphiques
 ```
 
 ---
